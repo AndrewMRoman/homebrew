@@ -16,8 +16,8 @@
 				]
 			}
 		],
-		"dateAdded": 1724021914,
-		"dateLastModified": 1724021914
+		"dateAdded": 1724022816,
+		"dateLastModified": 1724022816
 	},
 	"monster": [
 		{
@@ -119,7 +119,7 @@
 				{
 					"name": "Sculpted Ice Explosion {@recharge 4}",
 					"entries": [
-						"Noah unleashes a magical explosion of ice. The ice erupts in a 20-foot-radius sphere centered on a point within 150 feet of the evoker. Each creature in that area must make a {@dc 15} Dexterity saving throw. The evoker can select up to three creatures it can see in the area to ignore the spell, as the evoker sculpts the spell's energy around them. On a failed save, a creature takes 9 ({@damage 3d4+8}) cold damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"Noah unleashes a magical explosion of ice. The ice erupts in a 20-foot-radius sphere centered on a point within 150 feet of the evoker. Each creature in that area must make a {@dc 15} Dexterity saving throw. The evoker can select up to three creatures it can see in the area to ignore the spell, as the evoker sculpts the spell's energy around them. On a failed save, a creature takes 9 ({@damage 3d4 + 8}) cold damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
 					]
 				}
 			],
