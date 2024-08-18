@@ -1,0 +1,168 @@
+{
+	"siteVersion": "1.209.3",
+	"_meta": {
+		"sources": [
+			{
+				"json": "AndrewsTest",
+				"abbreviation": "AH",
+				"full": "Andrew's Homebrew",
+				"version": "1",
+				"url": "https://github.com/AndrewMRoman/homebrew",
+				"authors": [
+					"Andrew"
+				],
+				"convertedBy": [
+					"Andrew"
+				]
+			}
+		],
+		"dateAdded": 1724021914,
+		"dateLastModified": 1724021914
+	},
+	"monster": [
+		{
+			"name": "Noah",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "AndrewsTest",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with mage armor",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "25"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 12,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"passive": 11,
+			"cr": "2",
+			"isNpc": true,
+			"tokenHref": {
+				"type": "internal",
+				"path": ""
+			},
+			"save": {
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Noah is a 2nd-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell frost fingers|IDRotF}",
+								"{@spell mage armor}",
+								"{@spell magic missile}"
+							],
+							"slots": 3
+						},
+						"2": {
+							"spells": [
+								"{@spell rime's binding ice|FTD}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Noah makes three Ice Burst attacks."
+					]
+				},
+				{
+					"name": "Ice Burst",
+					"entries": [
+						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 120 ft., one target. {@h}3 ({@damage 1d4 + 1}) cold damage."
+					]
+				},
+				{
+					"name": "Sculpted Ice Explosion {@recharge 4}",
+					"entries": [
+						"Noah unleashes a magical explosion of ice. The ice erupts in a 20-foot-radius sphere centered on a point within 150 feet of the evoker. Each creature in that area must make a {@dc 15} Dexterity saving throw. The evoker can select up to three creatures it can see in the area to ignore the spell, as the evoker sculpts the spell's energy around them. On a failed save, a creature takes 9 ({@damage 3d4+8}) cold damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"I"
+			],
+			"fluff": {
+				"entries": [
+					"Noah is a haughty, male, elven, mid-ranking member of the Avowed at Candlekeep. He is arrogant, and modestly justified in being so. He is talented amongst his peers, and lords that fact over them whenever he can. However, towards higher-ranking members of the Avowed, he is most assuredly a suck-up. He is always seeking the approval of those he believes can elevate his social status."
+				]
+			},
+			"damageTags": [
+				"C"
+			],
+			"damageTagsSpell": [
+				"C",
+				"O"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			]
+		}
+	]
+}
